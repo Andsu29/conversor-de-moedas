@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  height: 100vh;
+  background: rgb(48, 63, 117);
+  background: linear-gradient(
+    163deg,
+    rgba(48, 63, 117, 1) 14%,
+    rgba(76, 221, 144, 1) 63%,
+    rgba(43, 183, 239, 1) 100%
+  );
+}
+form {
+  background-color: rgb(229, 246, 232);
+  width: 400px;
+  height: 400px;
+  padding: 40px;
+  border-radius: 30px;
+}
+input {
+  height: 50px;
+}
+button {
+  margin-top: 10px;
+  max-width: 100%;
+}
+.resultado {
+  display: none;
+  font-size: 2rem;
+}
+.block {
+  display: block;
+}
+
+.erro {
+  margin-top: 15px;
+  font-size: 25px;
+  border-radius: 20px;
+  background-color: red;
+}
+
+.erroInput {
+  border: 2px solid red;
+}
